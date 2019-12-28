@@ -1,0 +1,171 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:url(图片/1.jpg) no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+	font-family:'Lato', sans-serif;
+}
+#log{
+	width:480px;
+	height:800px;
+	position:relative;
+	margin:50px auto;
+}
+#login{
+	width:480px;
+	height:470px;
+	background:rgb(0,0,0,0.4);
+	box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+	position:absolute;
+	left:0;
+	top:0;
+	opacity:1;
+	z-index:2;
+}
+.welcom{
+	font-family:'Calligraffitti',cursive;
+	font-size:6em;
+	color:#fff;
+	text-align:center;
+}
+.denglu form{
+	text-align:center;
+}
+.denglu input{
+	width:400px;
+	height:50px;
+	border:0;
+	background:rgba(255,255,255,0.1);
+	border-radius:25px;
+	text-align:center;
+	line-height:50px;
+	font-size:20px;
+	color:#fff;
+	font-weight:100;
+	padding:5px 20px;
+	box-sizing:border-box;
+	margin-top:20px;
+}
+.denglu input:hover{
+	border:1px solid #fff;
+}
+.denglu button{
+	width:400px;
+	height:50px;
+	margin-top:20px;
+	font-size:20px;
+	border:0;
+	border-radius:25px;
+	box-sizing:border-box;
+	background:#005377;
+	color:#fff;
+	cursor:pointer;
+	font-weight:100;
+}
+.denglu button:hover{
+	background:linear-gradient(to right,rgba(0,83,119,1),rgba(73,227,206,1))
+}
+.go_register{
+	padding:80px 0px 0 320px;
+	color:#fff;
+	font-weight:100;
+}
+.go_register a{
+	color:#fff;
+	text-decoration:none;
+}
+.go_register a:hover{
+	color:#9B30FF;
+}
+#register{
+	width:480px;
+	height:560px;
+	background:rgb(0,0,0,0.4);
+	box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+	position:absolute;
+	left:0;
+	top:0;
+	opacity:0;
+	z-index:1;
+	transform:rotateY(180deg);
+}
+.zhuce form{
+	text-align:center;
+}
+.zhuce input{
+	width:400px;
+	height:50px;
+	border:0;
+	background:rgba(255,255,255,0.1);
+	border-radius:25px;
+	text-align:center;
+	line-height:50px;
+	font-size:18px;
+	color:#fff;
+	font-weight:100;
+	padding:5px 20px;
+	box-sizing:border-box;
+	margin-top:20px;
+}
+.zhuce input:hover{
+	border:1px solid #fff;
+}
+.photo{
+	width:100px;
+	height:100px;
+	margin:0 auto;
+	margin-top:30px;
+	border-radius:100%;
+	position:relative;
+	border:2px solid #fff;
+	color:#fff;
+	box-sizing:border-box;
+	text-align:center;
+	padding-top:30px;
+}
+.photo form{
+	position:absolute;
+	left:0;
+	top:0;
+}
+.photo input{
+	width:100px;
+	height:100px;
+	border-radius:100%;
+	opacity:0;
+	cursor:pointer;
+}
+.zhuces input:nth-child(1){
+	margin-top:0;
+}
+.zhuce button{
+	width:400px;
+	height:50px;
+	margin-top:20px;
+	font-size:18px;
+	border:0;
+	border-radius:25px;
+	box-sizing:border-box;
+	background:#005377;
+	color:#fff;
+	cursor:pointer;
+	font-weight:100;
+}
+.zhuce button:hover{
+	background:linear-gradient(to right,rgba(0,83,119,1),rgba(73,227,206,1))
+}
+.go_login{
+	color:#fff;
+	padding:50px 0 0 290px;
+}
+.go_login a{
+	color:#fff;
+	text-decoration:none;
+}
+.go_login a:hover{
+	color:#9B30FF;
+}

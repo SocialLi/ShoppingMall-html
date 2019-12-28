@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>登录注册界面</title>
+  <link href="shop_login.css" rel="stylesheet" type="text/css">
+  <script src="shop_login.js" type="text/javascript"></script>
+ </head>
+ <body>
+	<div id="log">
+
+		<div id="login">
+			<div class="welcom">welcome</div>
+			<div class="denglu">
+				<form>
+					<input type="text" placeholder="用户名" onfocus="placeholder=''"
+					onblur="placeholder='用户名'"></input>
+					<input type="password" placeholder="密码" onfocus="placeholder=''"
+					onblur="placeholder='密码'"></input>
+					<button>登录</button>
+				</form>
+			</div>
+			<div class="go_register">
+				<p>没有账户？<a href="javascript:" id="back_register">注册</a></p>
+			</div>
+		</div>
+		<div id="register">
+			<div class="photo">
+				<span>上传<br>头像</span>
+				<form>
+					<input type="file"></input>
+				</form>
+			</div>
+			<div class="zhuce">
+				<form>
+					<input type="text" placeholder="用户名" onfocus="placeholder=''"
+					onblur="placeholder='用户名'"></input>
+					<input type="text" placeholder="邮箱" onfocus="placeholder=''"
+					onblur="placeholder='邮箱'"></input>
+					<input type="password" placeholder="密码" onfocus="placeholder=''"
+					onblur="placeholder='密码'"></input>
+					<input type="password" placeholder="确认密码" onfocus="placeholder=''"
+					onblur="placeholder='确认密码'"></input>
+					<button>注册</button>
+				</form>
+			</div>
+			<div class="go_login">
+				<p>已有账户？<a href="javascript:" id="back_login">返回登录</a></p>
+			</div>
+		</div>
+	</div>
+ </body>
+</html>
